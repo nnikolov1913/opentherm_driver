@@ -112,8 +112,8 @@ static __poll_t opentherm_poll(struct file *filp, struct poll_table_struct *wait
 
 static struct ot_ctx otrtinctx = { .pin = OT_RT_IN };
 static struct ot_ctx otboilinctx = { .pin = OT_BOIL_IN };
-static struct ot_ctx otrtoutctx = { .pin = OT_RT_OUT, .invert = 1 };
-static struct ot_ctx otboiloutctx = { .pin = OT_BOIL_OUT, .invert = 1 };
+static struct ot_ctx otrtoutctx = { .pin = OT_RT_OUT };
+static struct ot_ctx otboiloutctx = { .pin = OT_BOIL_OUT };
 
 static struct ot_ctx * otctxarr[DEVICE_NUM] = { &otrtinctx, &otrtoutctx, &otboilinctx, &otboiloutctx };
 
