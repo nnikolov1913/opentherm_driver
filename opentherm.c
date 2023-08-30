@@ -18,10 +18,10 @@
 #include <linux/ktime.h>
 
 #define TIMEOUT 5000
-#define OT_RT_IN    6
-#define OT_RT_OUT   13
-#define OT_BOIL_IN  19
-#define OT_BOIL_OUT 26
+#define OT_RT_IN    23
+#define OT_RT_OUT   22
+#define OT_BOIL_IN  25
+#define OT_BOIL_OUT 24
 #define TRANSITION_TIMEOUT 1100000
 #define BITRECEIVE_TIMEOUT 650000
 #define OT_HALFBIT_TIME    500000
