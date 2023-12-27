@@ -1,3 +1,8 @@
+/*
+ * GPL-2.0
+ * Nikolay Nikolov
+*/
+
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/module.h>
