@@ -10,3 +10,6 @@ Uses GPIO 26(in) and 5(out) to thermostat interface and GPIO 20(in) and 21(out) 
 make
 
 sudo insmod opentherm.ko
+
+#opentherm rpi board
+![board](doc/otrpiboard.jpg)
