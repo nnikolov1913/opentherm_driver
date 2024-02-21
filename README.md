@@ -11,5 +11,5 @@ make
 
 sudo insmod opentherm.ko
 
-#opentherm rpi board
+# opentherm rpi board
 ![board](doc/otrpiboard.jpg)
