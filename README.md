@@ -17,13 +17,19 @@ There is simple program in usage-example folder showing how data can be read fro
 To compile it simply cd to usage-example and type make.
 This driver reads the OT message strips the start and stop bits and 32 bits OT message can be read from the
 special devices in /dev
+
 From /dev/opentherm0 messages coming from the thermostat can be read.
+
 From /dev/opentherm2 messages coming from the boiler can be read.
+
 The drivers supports blocking and non blocking reads.
 
 Similar approach is for writing data. 32 bits OT messages can be send to the thermostat and boiler.
+
 /dev/opentherm1 can be used to write messages to the thermostat
+
 /dev/opentherm3 can be used to write messages to boiler
+
 The driver adds the start and stop bits and sends the message to the interface.
 
 # opentherm rpi board
