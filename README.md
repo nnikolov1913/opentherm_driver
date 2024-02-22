@@ -18,17 +18,15 @@ To compile it simply cd to usage-example and type make.
 This driver reads the OT message strips the start and stop bits and 32 bits OT message can be read from the
 special devices in /dev
 
-/dev/opentherm0 should be used to read messages coming from the thermostat.
-
-/dev/opentherm2 should be used to read messages coming from the boiler.
+- /dev/opentherm0 should be used to read messages coming from the thermostat.
+- /dev/opentherm2 should be used to read messages coming from the boiler.
 
 The drivers supports blocking and non blocking reads.
 
 Similar approach is for writing data. 32 bits OT messages can be send to the thermostat and boiler.
 
-/dev/opentherm1 should be used to write messages to the thermostat
-
-/dev/opentherm3 should be used to write messages to the boiler
+- /dev/opentherm1 should be used to write messages to the thermostat
+- /dev/opentherm3 should be used to write messages to the boiler
 
 The driver adds the start and stop bits and sends the message to the interface.
 
